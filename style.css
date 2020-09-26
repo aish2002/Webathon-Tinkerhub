@@ -1,0 +1,203 @@
+h1{
+   color:black;
+   font-family: cursive;
+   font-size: 2.5rem;
+}
+.n{
+  font-family: cursive;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.name{
+    font-family: cursive ;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0%;
+}
+img{
+    width: 20%;
+    margin-left: 40%;
+    height: 20%;
+}
+
+     
+.cloud
+ {
+    width: 40%;
+    border: 5px solid rgb(230, 96, 63);
+    padding:  2%;
+    margin-top: 10% ;
+    margin-left: 10%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+    color: black ;
+    background:rgb(230, 96, 63) ;
+  }
+  .cloud1
+ {
+    width: 40%;
+    border: 5px solid rgb(230, 96, 63);
+    padding:  2%;
+    margin-top: 10% ;
+    margin-left: 0%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+    color: black ;
+    background:rgb(230, 96, 63) ;
+  }
+  .circle1 {
+    border: 5px solid rgb(230, 96, 63);
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    right: -15px;
+    bottom: 23px;
+  }
+  
+  .circle1:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(230, 96, 63);
+  }
+  .circle2 {
+    border: 5px solid rgb(230, 96, 63);
+    position: absolute;
+    width: 5px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    right: -60px;
+    bottom: 5px;
+    background:rgb(230, 96, 63) ;
+  }
+  .circle3 {
+    border: 5px solid rgb(230, 96, 63);
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    left: -15px;
+    bottom: 23px;
+  }
+  
+  .circle3:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(230, 96, 63);
+  }
+  .circle4 {
+    border: 5px solid rgb(230, 96, 63);
+    position: absolute;
+    width: 5px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    left: -60px;
+    bottom: 5px;
+    background:rgb(230, 96, 63) ;
+  }
+.a{
+    
+    display: flex;
+}
+p{
+    font-size: 1.5rem;
+    font-family: unset;
+}
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+.skills{
+  margin-top: 10%;
+  margin-left: -15%;
+  width: 80%;
+  height: 80%;
+}
+  
+  a {
+    text-decoration: none ;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius;
+    margin-right: 20px;
+    font-size: $font-size;
+    overflow: hidden;
+    position: relative;
+    color: $basic-dark-color;
+    border: 2px solid $basic-dark-color; 
+  }
+    i {
+      position: relative;
+      z-index: 3;
+    }
+  .cont{
+      text-align: center;
+      margin-top: 10%;
+  } 
+  .info{
+    /*width:10%;--*/
+    height: 40%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+  .scallop{
+    display: flex;
+  }
+  
+  .scallop-down{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .pen{
+    margin-top: 10%;
+    
+    margin-left: 10%;
+  }
+  
+  .scallop-up{
+    display: flex;
+  }
+  .buttons{
+    text-align: center;
+    
+  }
+  .git{
+    background-color: rgb(230, 96, 63);
+    border-radius: 20%;
+    height: 60%;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 10%;
+    margin-right: -2%;
+  }
+  .mail{
+    background-color:rgb(230, 96, 63);;
+    border-radius: 20%;
+    height: 60%;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 10%;
+  }
